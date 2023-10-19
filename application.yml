@@ -85,8 +85,8 @@ spring:
     password: ${MYSQL_SERVER_ADMIN_PASSWORD}
   sql:
     init:
-      schema-locations: classpath*:db/mysql/schema.sql
-      data-locations: classpath*:db/mysql/data.sql
+      schema-locations: classpath*:db/mysql/schema1.sql
+      data-locations: classpath*:db/mysql/data1.sql
       mode: always
 
 ---
