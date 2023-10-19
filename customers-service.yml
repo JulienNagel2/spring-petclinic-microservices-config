@@ -1,4 +1,13 @@
-﻿spring:
+spring:
   config:
     activate:
-      on-profile: default
+      on-profile: mysql
+  datasource:
+    url: jdbc:mysql://${MYSQL_SERVER_FULL_NAME}:3306/${MYSQL_DATABASE_NAME}?useSSL=false
+    username: ${MYSQL_SERVER_ADMIN_LOGIN_NAME}
+    password: ${MYSQL_SERVER_ADMIN_PASSWORD}
+  sql:
+    init:
+      schema-locations: classpath*:db/mysql/schema.sql
+      data-locations: classpath*:db/mysql/data.sql
+      mode: always      
