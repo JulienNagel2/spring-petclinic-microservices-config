@@ -4,7 +4,7 @@ spring:
       on-profile: default
   sql:
     init:
-    schema-locations: classpath*:db/hsqldb/schema1.sql
+    schema-locations: classpath*:db/hsqldb/schema.sql
       data-locations: classpath*:db/hsqldb/data.sql
       mode: always
       platform: hsqldb
