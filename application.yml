@@ -11,7 +11,7 @@ spring:
   sql:
     init:
       schema-locations: classpath*:db/hsqldb/schema1111.sql
-      data-locations: classpath*:db/hsqldb/data.sql
+      data-locations: classpath*:db/hsqldb/data1111.sql
       mode: always
       platform: hsqldb
   cloud:
