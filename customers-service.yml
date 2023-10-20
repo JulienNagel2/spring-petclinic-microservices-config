@@ -1,6 +1,17 @@
 spring:
   config:
     activate:
+      on-profile: default
+  sql:
+    init:
+    schema-locations: classpath*:db/hsqldb/schema1.sql
+      data-locations: classpath*:db/hsqldb/data.sql
+      mode: always
+      platform: hsqldb
+---
+spring:
+  config:
+    activate:
       on-profile: mysql
   datasource:
     url: jdbc:mysql://${MYSQL_SERVER_FULL_NAME}:3306/${MYSQL_DATABASE_NAME}?useSSL=false
