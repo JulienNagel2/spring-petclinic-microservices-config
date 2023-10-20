@@ -10,7 +10,7 @@ server:
 spring:
   sql:
     init:
-      schema-locations: classpath*:db/hsqldb/schema1A.sql
+      schema-locations: /hsqldb/schema1A.sql
       data-locations: classpath*:db/hsqldb/data1A.sql
       mode: always
       platform: hsqldb
