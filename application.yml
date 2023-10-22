@@ -14,7 +14,7 @@ spring:
     init:
       #schema-locations: classpath*:db/hsqldb/schema.sql
       #data-locations: classpath*:db/hsqldb/data.sql
-      schema-locations: classpath*:db/mysql/schemajngerrormysql1.sql
+      schema-locations: classpath*:db/mysql/schema.sql
       data-locations: classpath*:db/mysql/data.sql      
       mode: always
       platform: hsqldb
