@@ -1,3 +1,5 @@
+jnglocalprop: jngconfigservercustomersserviceymlvalue
+
 spring:
   config:
     activate:
