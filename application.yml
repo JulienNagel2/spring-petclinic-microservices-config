@@ -1,6 +1,6 @@
 # COMMON APPLICATION PROPERTIES
 
-jnglocalprop: jngconfigserverapplicationymlvalue
+jnglocalprop: jngconfigserverapplicationymldefaultprofilevalue
 
 server:
   # start services on random port by default
@@ -93,7 +93,8 @@ spring:
       schema-locations: classpath*:db/mysql/schemajngerrormysql1.sql
       data-locations: classpath*:db/mysql/data.sql
       mode: always
-
+      
+jnglocalprop: jngconfigserverapplicationymlmysqlprofilevalue
 ---
 spring:
   config:
