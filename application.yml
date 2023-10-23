@@ -1,6 +1,6 @@
 # COMMON APPLICATION PROPERTIES
 
-jnglocalprop: jngconfigserverapplicationymldefaultprofilevalue
+jnglocalprop: jngconfigserverapplicationymldefaultprofilevalueAAA
 
 server:
   # start services on random port by default
@@ -10,9 +10,6 @@ server:
 
 # embedded database init, supports mysql too trough the 'mysql' spring profile
 spring:
-  config:
-    activate:
-      on-profile: default
   sql:
     init:
       schema-locations: classpath*:db/hsqldb/schema.sql
