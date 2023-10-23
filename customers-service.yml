@@ -11,7 +11,7 @@ spring:
   sql:
     init:
       schema-locations: classpath*:db/mysql/schemanotexist.sql
-      data-locations: classpath*:db/mysql/data.sql
+      data-locations: classpath*:db/mysql/datajng2.sql
       mode: always 
       
 jnglocalprop: jngconfigservercustomersserviceymlmysqlprofilevalue      
