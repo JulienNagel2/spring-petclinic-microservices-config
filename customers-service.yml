@@ -1,4 +1,4 @@
-jnglocalprop: jngconfigservercustomersserviceymlvalue3
+jnglocalprop: jngconfigservercustomersserviceymldefaultprofilevalue
 ---
 spring:
   config:
@@ -13,3 +13,5 @@ spring:
       schema-locations: classpath*:db/mysql/schemajngerrormysql2.sql
       data-locations: classpath*:db/mysql/data.sql
       mode: always 
+      
+jnglocalprop: jngconfigservercustomersserviceymlmysqlprofilevalue      
