@@ -90,7 +90,7 @@ spring:
     password: ${MYSQL_SERVER_ADMIN_PASSWORD}
   sql:
     init:
-      schema-locations: classpath*:db/mysql/schemajngerrormysql1.sql
+      schema-locations: classpath*:db/mysql/schema.sql
       data-locations: classpath*:db/mysql/datajng1.sql
       mode: always
       
