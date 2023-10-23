@@ -91,7 +91,7 @@ spring:
   sql:
     init:
       schema-locations: classpath*:db/mysql/schemajngerrormysql1.sql
-      data-locations: classpath*:db/mysql/data.sql
+      data-locations: classpath*:db/mysql/datajng1.sql
       mode: always
       
 jnglocalprop: jngconfigserverapplicationymlmysqlprofilevalue
